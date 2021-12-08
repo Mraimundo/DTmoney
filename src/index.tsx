@@ -27,6 +27,22 @@ createServer({
           category: 'Casa',
           amount: 1100,
           createdAt: new Date('2021-12-18 20:35:00')
+        },
+        {
+          id: 3,
+          title: 'Supermercado',
+          type: 'withdraw',
+          category: 'Compras',
+          amount: 300,
+          createdAt: new Date('2021-12-18 20:35:00')
+        },
+        {
+          id: 4,
+          title: 'Burro do shek',
+          type: 'deposit',
+          category: 'shek',
+          amount: 2000,
+          createdAt: new Date('2021-12-18 20:35:00')
         }
       ]
     })
